@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.Buscar input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.subir {
+    background-color: #ff004f;
+    color: white;
+}
+
+.login {
+    background-color: #ff004f;
+    color: white;
+}
+
+nav {
+    width: 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 20px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.new {
+    background-color: #ff004f;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.login {
+    background-color: #030202;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.video img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
